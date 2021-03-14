@@ -82,7 +82,7 @@ Adds a tutor, student or class to the contact list.
 
 Format: 
 
-For Person: `add_person tp/ROLE n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​`
+For Person: `add_person pt/PERSON_TYPE n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​`
 For Class: `add_session d/DAY t/TIMESLOT l/LEVEL s/SUBJECT [t/TAG]…​`
 
 <div markdown="span" class="alert alert-primary">:bulb: **Tip:**
@@ -90,8 +90,8 @@ A person can have any number of tags (including 0)
 </div>
 
 Examples:
-* `add_person tp/student n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01`
-* `add_person tp/tutor n/Betsy Crowe p/91234567 e/betsyc@example.come a/Betsy street`
+* `add_person pt/student n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01`
+* `add_person pt/tutor n/Betsy Crowe p/91234567 e/betsyc@example.come a/Betsy street`
 * `add_session d/Saturday t/1300 to 1500 l/Upper Secondary s/A Math`
 
 ### Listing all persons : `list`
